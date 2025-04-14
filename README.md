@@ -5,7 +5,7 @@
 
 
 
-# [1C 监督机器学习 - 回归与分类](./Supervised Machine Learning - Regression and Classification/Supervised Machine Learning - Regression and Classification.md)
+# [1C 监督机器学习 - 回归与分类](./Supervised%20Machine%20Learning%20-%20Regression%20and%20Classification/Supervised%20Machine%20Learning%20-%20Regression%20and%20Classification.md)
 
 - 机器学习简介
     - 机器学习的大致分类
