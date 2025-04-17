@@ -54,4 +54,22 @@
     - 逻辑回归 (Logistic Regression)
         - 问题的引出
         - Sigmoid function
-        - 逻辑回归的实现
+        - 逻辑回归的解释
+        - 决策边界 (Decision boundary)
+        - 逻辑回归的代价函数
+        - 机器学习中代价函数的设计
+            - 1. 代价函数的来源
+                - （1）从概率模型推导而来（统计学习视角）
+                - （2）直接针对算法目标设计（优化视角）
+            - 2. 代价函数与算法的适配性
+            - 总结
+        - 逻辑回归的简化代价函数
+        - 梯度下降实现
+    - 欠拟合和过拟合
+        - 多种拟合表现
+            - 回归 (Regression)
+            - 分类 (Classification)
+        - 解决过拟合的方法
+        - 正则化代价函数
+        - 正则化线性回归 (Regularized linear regression)
+        - 正则化逻辑回归 (Regularized logistic regression)
