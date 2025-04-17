@@ -5,7 +5,7 @@
 
 
 
-# [C1 监督机器学习 - 回归与分类](./Supervised%20Machine%20Learning%20-%20Regression%20and%20Classification/Supervised%20Machine%20Learning%20-%20Regression%20and%20Classification.md)
+# [C1 - 监督机器学习 - 回归与分类](./Supervised%20Machine%20Learning%20-%20Regression%20and%20Classification/Supervised%20Machine%20Learning%20-%20Regression%20and%20Classification.md)
 
 - 机器学习简介
     - 机器学习的大致分类
@@ -73,3 +73,13 @@
         - 正则化代价函数
         - 正则化线性回归 (Regularized linear regression)
         - 正则化逻辑回归 (Regularized logistic regression)
+
+
+
+# [C2 - 高级学习算法](./Advanced%20Learning%20Algorithms/Advanced%20Learning%20Algorithms.md)
+
+
+
+
+
+(ing)
