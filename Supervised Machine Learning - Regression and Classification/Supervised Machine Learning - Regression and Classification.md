@@ -255,7 +255,7 @@ univariate -> 单变量
 
 ### 代价函数 (Cost function)
 
-**代价函数（cost function）：**用来衡量假设函数f(x)准确性的工具
+**代价函数（cost function）**：用来衡量假设函数f(x)准确性的工具
 
 ![img](assets/7efe028b5b459955e6aa7cb6edc91974ff115135.jpg)
 
@@ -295,7 +295,7 @@ $$
 
 
 
-**Cost function（代价函数）：**
+**Cost function（代价函数）**：
 $$
 \frac{1}{2m} \sum_{i=1}^m (\hat y^{(i)} - y^{(i)}) ^ 2
 $$
@@ -337,7 +337,7 @@ $$
 
 ### 梯度下降 (gradient descent) 及公式由来
 
-**梯度下降：**寻找代价函数的最小值（只能找到局部最低点）
+**梯度下降**：寻找代价函数的最小值（只能找到局部最低点）
 
 ![img](assets/36b3ea616680cba3cb88be918d3777e084ed2702.jpg)
 
@@ -458,7 +458,7 @@ $$
 
 ### 多类特征 (Multiple features)
 
-**多类特征：**x 为多个特征组成的向量
+**多类特征**：x 为多个特征组成的向量
 
 ![1743818408277](assets/1743818408277.jpg)
 
@@ -1003,8 +1003,7 @@ $$
 
 
 $$
-L(f_{\vec{w}, b}(\vec{x}^{(i)}), y^{(i)}) = -y ^{(i)} \log(f_{\vec{w}, b}(\vec{x}^{(i)}))
-- (1 - y ^{(i)}) \log (1 - f_{\vec{w}, b}(x^{(i)}))
+L(f_{\vec{w}, b}(\vec{x}^{(i)}), y^{(i)}) = -y ^{(i)} \log(f_{\vec{w}, b}(\vec{x}^{(i)})) - (1 - y ^{(i)}) \log (1 - f_{\vec{w}, b}(x^{(i)}))
 $$
 
 
