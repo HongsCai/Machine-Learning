@@ -1033,9 +1033,9 @@ $$
 
 ### 多种拟合表现
 
->过拟合: Overfitting
+>过拟合: Overfitting【又称 High Variance】
 >
->欠拟合: Underfitting
+>欠拟合: Underfitting【又称 High Bias】
 >
 >泛化: Generalization
 
