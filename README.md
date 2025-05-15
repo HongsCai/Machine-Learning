@@ -78,8 +78,211 @@
 
 # [C2 - 高级学习算法](./Advanced%20Learning%20Algorithms/Advanced%20Learning%20Algorithms.md)
 
-
-
-
-
-(ing)
+- 神经网络 (Neural networks)
+    - 神经网络的介绍
+    - 需求预测 (Demand Prediction)
+    - 例子：图像识别
+        - 人脸识别（Face recognition）
+        - 汽车分类（Car classification）
+    - 神经网络中的层
+    - 更复杂的神经网络
+    - 推理：前向传播 (Forward Propagation)
+    - 代码中的推理
+    - TensorFlow中的数据
+    - 构建一个神经网络
+    - 在一个单层中的前向传播
+    - 前向传播的一般实现
+        - 实现 dense() 函数
+        - Numpy 切片注意事项
+        - 实现 sequential() 顺序串联函数
+    - 通向 AGI 的可能性
+    - 神经网络如何高效实现
+    - 矩阵乘法
+    - TensorFlow实现
+    - 训练细节
+    - sigmoid的替代
+        - 问题提出
+        - ReUL
+    - 选择激活函数
+        - 输出层的激活函数选择
+        - 隐藏层的激活函数选择
+        - 总结
+        - 为什么需要激活函数
+    - 多类别分类 (Multiclass Classification)
+        - Softmax回归
+            - Softmax回归介绍
+            - 神经网络的Softmax输出
+            - Softmax的改进实现
+    - 多标签分类 (Multi-label Classification)
+    - 高级优化方法
+        - 引入
+        - Adam 算法的简略解释
+            - 1. 方向趋势（动量规则）
+            - 2. 波动检测（缩放规则）
+            - 3. 最终学习率计算
+        - TensorFlow 应用 Adam
+    - Aditional Layer Types
+        - Dense Layer (密集层)
+        - Convolutional Layer (卷积层)
+    - 机器学习项目中下一步做什么
+        - Debugging a learning algorithm
+    - 模型评估
+    - 模型选择和训练交叉验证测试集
+    - 诊断偏差和方差
+    - 正则化和偏差或方差
+    - 判断高偏差和高方差
+    - 学习曲线
+    - 再次决定下一步做什么
+    - 偏差或方差与神经网络
+    - 机器学习的迭代过程
+    - 误差分析
+    - 添加数据
+        - 针对性地补充模型当前表现不足的特定类型数据
+        - 数据增强 (Data augmentation)
+        - 数据合成 (Data synthesis)
+    - 迁移学习 (Transfer Learning)
+    - 机器学习项目的完整周期
+    - 倾斜数据集的误差指标
+        - 问题引出
+        - 精确率和召回率 (Precision / recall)
+        - 精确率与召回率的权衡
+        - F1 Score
+- 决策树 (Decision Tree)
+    - 决策树的简介
+    - 决策树的学习过程
+    - 测量纯度
+    - 选择拆分信息增益
+    - 总体流程
+    - 独热编码（One-Hot Encoding）
+    - 处理连续值特征
+    - 回归树 (Regression Trees)
+    - 树集成 (Tree Ensembles)
+        - 单个决策树的敏感问题
+        - 树集成简介
+        - 有放回抽样 (Sampling with replacement)
+        - 随机森林算法 (Random forest algorithm)
+        - XGBoost 提升决策树算法
+            - 提升树 (Boosted trees)
+            - XGBoost 的特点
+            - XGBoost 的使用
+            - XGBoost 的实现细节
+                - 1. 目标函数设计：正则化损失
+                - 2. 梯度提升与泰勒展开
+                - 3. 树结构的贪婪生成算法
+                    - 1) 分裂节点选择
+                    - 2) 分裂查找优化
+                    - 3) 稀疏感知分裂
+                - 4. 工程优化：速度与内存
+                    - 1) 列块（Column Block）
+                    - 2) 缓存感知访问
+                    - 3) 核外计算（Out-of-Core）
+                - 5. 其他关键技术
+                    - 1) 正则化策略
+                    - 2) 自定义损失函数
+                    - 3) 内置交叉验证
+                - 6. 与传统GBDT的对比
+    - 使用决策树的时机
+- 神经网络 (Neural networks)
+    - 神经网络的介绍
+    - 需求预测 (Demand Prediction)
+    - 例子：图像识别
+        - 人脸识别（Face recognition）
+        - 汽车分类（Car classification）
+    - 神经网络中的层
+    - 更复杂的神经网络
+    - 推理：前向传播 (Forward Propagation)
+    - 代码中的推理
+    - TensorFlow中的数据
+    - 构建一个神经网络
+    - 在一个单层中的前向传播
+    - 前向传播的一般实现
+        - 实现 dense() 函数
+        - Numpy 切片注意事项
+        - 实现 sequential() 顺序串联函数
+    - 通向 AGI 的可能性
+    - 神经网络如何高效实现
+    - 矩阵乘法
+    - TensorFlow实现
+    - 训练细节
+    - sigmoid的替代
+        - 问题的提出
+        - ReUL
+    - 选择激活函数
+        - 输出层的激活函数选择
+        - 隐藏层的激活函数选择
+        - 总结
+        - 为什么需要激活函数
+    - 多类别分类 (Multiclass Classification)
+        - Softmax回归
+            - Softmax回归介绍
+            - 神经网络的Softmax输出
+            - Softmax的改进实现
+    - 多标签分类 (Multi-label Classification)
+    - 高级优化方法
+        - 引入
+        - Adam 算法的简略解释
+            - 1. 方向趋势（动量规则）
+            - 2. 波动检测（缩放规则）
+            - 3. 最终学习率计算
+        - TensorFlow 应用 Adam
+    - Aditional Layer Types
+        - Dense Layer (密集层)
+        - Convolutional Layer (卷积层)
+    - 机器学习项目中下一步做什么
+        - Debugging a learning algorithm
+    - 模型评估
+    - 模型选择和训练交叉验证测试集
+    - 诊断偏差和方差
+    - 正则化和偏差或方差
+    - 判断高偏差和高方差
+    - 学习曲线
+    - 再次决定下一步做什么
+    - 偏差或方差与神经网络
+    - 机器学习的迭代过程
+    - 误差分析
+    - 添加数据
+        - 针对性地补充模型当前表现不足的特定类型数据
+        - 数据增强 (Data augmentation)
+        - 数据合成 (Data synthesis)
+    - 迁移学习 (Transfer Learning)
+    - 机器学习项目的完整周期
+    - 倾斜数据集的误差指标
+        - 问题引出
+        - 精确率和召回率 (Precision / recall)
+        - 精确率与召回率的权衡
+        - F1 Score
+- 决策树 (Decision Tree)
+    - 决策树的简介
+    - 决策树的学习过程
+    - 测量纯度
+    - 选择拆分信息增益
+    - 总体流程
+    - 独热编码（One-Hot Encoding）
+    - 处理连续值特征
+    - 回归树 (Regression Trees)
+    - 树集成 (Tree Ensembles)
+        - 单个决策树的敏感问题
+        - 树集成简介
+        - 有放回抽样 (Sampling with replacement)
+        - 随机森林算法 (Random forest algorithm)
+        - XGBoost 提升决策树算法
+            - 提升树 (Boosted trees)
+            - XGBoost 的特点
+            - XGBoost 的使用
+            - XGBoost 的实现细节
+                - 1. 目标函数设计：正则化损失
+                - 2. 梯度提升与泰勒展开
+                - 3. 树结构的贪婪生成算法
+                    - 1) 分裂节点选择
+                    - 2) 分裂查找优化
+                    - 3) 稀疏感知分裂
+                - 4. 工程优化：速度与内存
+                    - 1) 列块（Column Block）
+                    - 2) 缓存感知访问
+                    - 3) 核外计算（Out-of-Core）
+                - 5. 其他关键技术
+                    - 1) 正则化策略
+                    - 2) 自定义损失函数
+                    - 3) 内置交叉验证
+                - 6. 与传统GBDT的对比
+    - 使用决策树的时机
