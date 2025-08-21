@@ -291,4 +291,24 @@
 
 # [C3 - 无监督学习 推荐系统 强化学习](./Unsupervised%20Learning,%20Recommenders,%20Reinforcement%20Learning/Unsupervised%20Learning,%20Recommenders,%20Reinforcement%20Learning.md)
 
-ing
+- 无监督学习 (Unsupervised Learning)
+	- 聚类 (Clustering)[K-means]
+		- K-means 的直观理解
+		- K-means 算法
+		- 优化目标
+		- K-means 初始化
+		- 选择聚类的数目
+			- 肘部法则 (Elbow Method)
+			- 手动决定 K 值
+	- 异常检测 (Anomaly detection)
+		- 发现异常事件
+		- 高斯 (正态) 分布
+		- 异常检测算法——密度估计 (Density Estimation)
+		- 开发和评估异常检测系统
+		- 异常检测 vs. 监督学习
+		- 特征的选择
+	- 推荐系统 (Recommender Systems)
+		- ing
+	
+	- 强化学习 (Reinforcement Learning)
+		- ing
